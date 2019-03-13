@@ -1,12 +1,42 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en-us">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
+  <meta charset="UTF-8">
+  <title>CSS Stylesheets with Relative Paths</title>
+
+  <!-- This line is money! It points your HTML to the CSS file. -->
+  <!-- Notice the "relative" pathway? It matches a file inside our current directory's "assets" folder. Open it to see our style rules. -->
+  <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+
 </head>
+
 <body>
-    
+  <header>
+    <h1>Kim Gorcyca</h1>
+    <ul>
+        <li><strong>About</strong> <a href="index.html"></a></li>
+        <li><strong>Portfolio</strong> <a href="portfolio.html"></a></li>
+        <li><strong>Contact</strong> <a href="contact.html"></a></li>
+    </ul>
+  </header>
+
+  <div class="container">
+
+    <section id="main-bio">
+
+      <h2>About Me!</h2>
+
+      <img id="bio-image" src="https://placehold.it/200x200" alt="Kim Gorcyca">
+
+      <p>Write a short paragraph or two about yourself, or use placeholder text from <a href="http://www.lipsum.com/">www.lipsum.com</a></p>
+    </section>
+
+  </div>
+
+<footer>
+    <!-- Footer without any information -->
+</footer>
 </body>
+
 </html>
