@@ -1,0 +1,33 @@
+.box {
+    /* fixed positioning */
+    position: relative;
+  }
+  
+  .box-1 {
+    top: 0px;
+    left:50px;
+  }
+  
+  .box-2 {
+    top: 0x;
+    left: 150px;
+  }
+  
+  .box-3 {
+    top: 450px;
+    left: 300px;
+    background: url('.../images/image3.jpeg');
+  }
+  
+  .box-4 {
+    top: 450px;
+    left: 500px;
+    background: url('.../images/image4.jpeg');
+  }
+
+  .box-5 {
+    top: 650px;
+    left: 300px;
+    background: url('.../images/image5.jpeg');
+  }
+  
