@@ -1,5 +1,7 @@
 section {
    width: 960px;
-   height:500px; 
+   height:300px; 
    margin: 500;
+   background-color:#ffffff;
+   border-color: #dddddd;
 }
